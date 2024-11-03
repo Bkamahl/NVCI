@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisplayDriverUninstaller Version="18.0.8.3">
+	<LogEntries>
+		<Event>
+			<Time>10/20/2024 9:03:39 AM</Time>
+			<Message>The following paths are detected.</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Key>[Found] AppExeFile</Key>
+					<Value>C:\Users\ghisl\Desktop\DDU\DDU v18.0.8.3\Display Driver Uninstaller.exe</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] AppBase</Key>
+					<Value>C:\Users\ghisl\Desktop\DDU\DDU v18.0.8.3\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Settings</Key>
+					<Value>C:\Users\ghisl\Desktop\DDU\DDU v18.0.8.3\Settings\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Logs</Key>
+					<Value>C:\Users\ghisl\Desktop\DDU\DDU v18.0.8.3\DDU Logs\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Language</Key>
+					<Value>C:\Users\ghisl\Desktop\DDU\DDU v18.0.8.3\Settings\Languages\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] ProgramFiles</Key>
+					<Value>C:\Program Files\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] ProgramFilesx86</Key>
+					<Value>C:\Program Files (x86)\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] Roaming</Key>
+					<Value>C:\ProgramData\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] AppBaseRoaming</Key>
+					<Value>C:\ProgramData\DisplayDriverUninstaller\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] SystemDrive</Key>
+					<Value>C:\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] WinDir</Key>
+					<Value>C:\WINDOWS\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] UserPath</Key>
+					<Value>C:\Users\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] System32</Key>
+					<Value>C:\WINDOWS\system32\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] SysWOW64</Key>
+					<Value>C:\WINDOWS\SysWOW64\</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Event>
+			<Time>10/20/2024 9:03:40 AM</Time>
+			<Message>System Information</Message>
+			<Values Separator=" : ">
+				<KvP>
+					<Key>DDU Version</Key>
+					<Value>18.0.8.3</Value>
+				</KvP>
+				<KvP>
+					<Key>OS</Key>
+					<Value>Windows 11</Value>
+				</KvP>
+				<KvP>
+					<Key>Win 10 1809+ ?</Key>
+					<Value>True</Value>
+				</KvP>
+				<KvP>
+					<Key>Architecture</Key>
+					<Value>x64</Value>
+				</KvP>
+				<KvP>
+					<Key>UserRights</Key>
+					<Value>Admin</Value>
+				</KvP>
+				<KvP>
+					<Key>Arguments</Key>
+					<Value>&lt;empty&gt;</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>GPU #0000</Key>
+					<Value>NVIDIA GeForce GTX 1080</Value>
+				</KvP>
+				<KvP>
+					<Key>GPU DeviceID</Key>
+					<Value>pci\ven_10de&amp;dev_1b80&amp;subsys_33631462</Value>
+				</KvP>
+				<KvP>
+					<Key>Vbios</Key>
+					<Value>Version86 04.17.00.8b</Value>
+				</KvP>
+				<KvP>
+					<Key>Detected Driver(s) Version(s)</Key>
+					<Value>32.0.15.6590</Value>
+				</KvP>
+				<KvP>
+					<Key>INF name</Key>
+					<Value>oem3.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>INF section</Key>
+					<Value>Section008</Value>
+				</KvP>
+				<KvP />
+			</Values>
+		</Event>
+		<Warning>
+			<Time>10/20/2024 9:03:40 AM</Time>
+			<Message>We are not in Safe Mode</Message>
+		</Warning>
+		<Event>
+			<Time>10/20/2024 9:03:40 AM</Time>
+			<Message>The following third-party driver packages are installed on this computer</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem0.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem1.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>CREATIVE</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem10.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>INTEL</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem11.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>CREATIVE</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem12.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem13.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Brother</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem14.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem15.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem17.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem2.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>NVIDIA</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem3.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>NVIDIA</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Display</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem4.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>NVIDIA Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem5.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem6.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem7.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem8.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>INTEL</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem9.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>INTEL</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+			</Values>
+		</Event>
+		<Event>
+			<Time>10/20/2024 9:03:40 AM</Time>
+			<Message>Trying to impersonate the SYSTEM account... SUCCESS !</Message>
+			<Values Separator=" : ">
+				<KvP>
+					<Key>Number of process to check</Key>
+					<Value>196</Value>
+				</KvP>
+				<KvP>
+					<Key>chrome</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>conhost</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>WidgetService</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>dllhost</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>chrome</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>Discord</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>RuntimeBroker</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>msedge</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>msedge</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>msedge</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>TGitCache</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>msedge</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>ApplicationFrameHost</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>Discord</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>smartscreen</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>msedge</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>chrome</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>FileCoAuth</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>chrome</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>ShellHost</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>StartMenuExperienceHost</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>svchost</Key>
+					<Value>Access is denied</Value>
+				</KvP>
+				<KvP>
+					<Key>OneDrive</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>chrome</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>MpDefenderCoreService</Key>
+					<Value>Access is denied</Value>
+				</KvP>
+				<KvP>
+					<Key>VBCSCompiler</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>MsMpEng</Key>
+					<Value>Access is denied</Value>
+				</KvP>
+				<KvP>
+					<Key>svchost</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>svchost</Key>
+					<Value>Skipping : S-1-5-21-600235129-4118573566-3871857504-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>nvcontainer</Key>
+					<Value>S-1-5-18</Value>
+				</KvP>
+				<KvP>
+					<Key>nvcontainer</Key>
+					<Value>SYSTEM account impersonalisation SUCCESS</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Event>
+			<Time>10/20/2024 9:03:40 AM</Time>
+			<Message>Reverting the Impersonalisation is successful !</Message>
+		</Event>
+		<Event>
+			<Time>10/20/2024 9:03:41 AM</Time>
+			<Message>&gt;&gt; Successfully saved log to file!</Message>
+		</Event>
+	</LogEntries>
+</DisplayDriverUninstaller>
