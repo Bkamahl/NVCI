@@ -1,5 +1,6 @@
-$gpuIDw = wmic path win32_videocontroller get pnpdeviceid
-$gpuID = $gpuIDw[2].replace(" ","")
+$gpuIDw = Get-PnpDevice -FriendlyName "NVIDIA GeForce*" | Select-Object -Property InstanceId | Select-Object -First 1
+$gpuID1 = "$gpuIDw".Replace("@{InstanceId=","")
+$gpuID = "$gpuID1".Replace("}","")
 Remove-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Enum\$gpuID\Device Parameters\Interrupt Management\Affinity Policy" -Name DevicePriority -Force
 Remove-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Enum\$gpuID\Device Parameters\Interrupt Management\MessageSignaledInterruptProperties" -Name MessageNumberLimit -Force
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Enum\$gpuID\Device Parameters\Interrupt Management\MessageSignaledInterruptProperties" -Name MSISupported -Value 1 -Force

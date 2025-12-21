@@ -7,4 +7,9 @@ taskkill /f /im explorer.exe
 taskkill /f /im explorer.exe
 start C:\Windows\explorer.exe
 powershell "Set-ExecutionPolicy Unrestricted"
+cls
+echo Waiting for driver to be removed! Be patient!
+echo
+echo
+echo
 start /WAIT %~dp0DDU\DisplayDriverUninstaller.exe -silent -removemonitors -nosafemodemsg -cleannvidia -restart
