@@ -12,4 +12,4 @@ echo Waiting for driver to be removed! Be patient!
 echo
 echo
 echo
-start /WAIT %~dp0DDU\DisplayDriverUninstaller.exe -silent -removemonitors -nosafemodemsg -cleannvidia -restart
+start /WAIT "" "%~dp0DDU\Display Driver Uninstaller.exe" -silent -removemonitors -nosafemodemsg -cleannvidia -restart
